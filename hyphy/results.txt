@@ -1,0 +1,272 @@
+[2J[H            /HYPHY 2.5.29(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+
+####Choose Genetic Code
+
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate-mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast-mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold-Protozoan-mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate-mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate-Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm-mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid-Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt-Yeast-Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian-mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm-mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma-Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean-mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode-mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus-obliquus-mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium-mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia-mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1-and-Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen-Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+20. [**Mesodinium-Nuclear**] Mesodinium Nuclear Code (transl_table=29)
+21. [**Peritrich-Nuclear**] Peritrich Nuclear Code (transl_table=30)
+22. [**Cephalodiscidae-mtDNA**] Cephalodiscidae Mitochondrial UAA-Tyr Code (transl_table=33)
+
+>Please choose an option (or press q to cancel selection):
+
+>Select a coding sequence alignment file (`/home/beatriz/project/`) 
+-------
+>[WARNING] This dataset contains 18 duplicate sequences. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+
+
+>Please select a tree file for the data: (`/home/beatriz/project/`) 
+>Loaded a multiple sequence alignment with **40** sequences, **155** codons, and **1** partitions from `/home/beatriz/project/data/pw_nostop.fas`
+
+
+####Choose the set of branches to test for selection
+
+1. [**All**] Include all branches in the analysis
+2. [**Internal**] Include all internal branches in the analysis
+3. [**Leaves**] Include all leaf branches in the analysis
+4. [**Unlabeled branches**] Set of 77 unlabeled branches
+
+>Please choose an option (or press q to cancel selection):
+
+####Include support for multiple nucleotide substitutions
+
+1. [**Double**] Include branch-specific rates for double nucleotide substitutions
+2. [**Double+Triple**] Include branch-specific rates for double and triple nucleotide substitutions
+3. [**None**] [Default] Use standard models which permit only single nucleotide changes to occur instantly
+
+>Please choose an option (or press q to cancel selection):
+
+>Save the resulting JSON file to (`/home/beatriz/project/`) 
+
+### * Selected 77 branches for testing: `Bentri_OT_f1_LDA9_VXCO01032293_1, Perecc_OT_m1_IZB2_VVGR01010189_1, Perecc_OT_f1_IXA4_VVFX01007713_1, Node3, Cypmic_OT_m1_JVE1_VUPN01042518_1, Cypmic_OT_f1_JVF2_VUPO01059642_1, Node7, Eremar_OT_m1_JXE9_VURW01034830_1, Eremar_OT_f1_JXF4_VURX01027416_1, Node11, Baicen_OT_m1_JAB7_VVHB01021407_1, Baicen_OT_f_JAE9_VVHF01000726_1, Node15, Julorn_OT_m1_ISB7_VVEK01004696_1, Chabri_OT_f1_AVA9_VUZJ01033648_1, Node27, Chabri_OT_m1_AVB2_VUZK01001108_1, Node26, Julorn_OT_f1_ISC1_VVEL01016499_1, Node25, Telvit_OT_m1_JBD5_VVHM01068905_1, Telvit_OT_f1_JBD6_VVHN01014038_1, Node32, Node24, Neopul_OT_f1_ISB3_VVEJ01017211_1, Neopul_OT_m1_ISA6_VVEG01019748_1, Node37, Neocal_OT_f1_INC7_VVCG01022500_1, Node36, Neocal_OT_m1_ILA7_VVBI01015065_1, Node35, Node23, Tremac_OT_m_IUD8_VVEZ01025849_1, Tremac_OT_f_IUD9_VVFA01095450_1, Node43, Boumic_OT_f_JAE7_VVHE01033540_1, Boumic_OT_m_JCF2_VVHU01025640_1, Node46, Node42, Node22, Xenoch_OT_f1_JVI5_VUPS01037005_1, Cyafur_OT_f_AYE5_VVAC01004384_1, Node50, Cyafur_OT_m_AVH2_VUZO01028396_1, Neomul_OT_f1_IRF8_VVDZ01043838_1, Cypgib_OT_m1_INH7_VVCO01035391_1, Cypgib_OT_f_INH9_VVCP01044423_1, Node57, Node55, Node53, Node49, Node21, Xenoch_OT_m1_JVH4_VUPR01034854_1, Batmin_OT_f_IXA5_VVFY01053389_1, Batmin_OT_m_JBG3_VVHS01033286_1, Node62, Node60, Node20, OT_gene_LG12_dna_primary_assembly_primary_assembly_O_niloticus_UMD_NMBU_LG12_24070196_24073278__, Node19, Tromoo_OT_m1_JBH4_VVHT01035467_1, Tromoo_OT_f1_JBH5_VNLG01006873_1, Node67, Trodub_OT_m1_KHA4_VUUK01004519_1, Trodub_OT_f_KHA5_VUUL01057976_1, Pethor_OT_m1_IWB5_VVFP01023448_1, Node73, Pethor_OT_f1_IWB6_VVFQ01000232_1, Node72, Node70, Node66, Node18, Node14, Node10, Node6, Node2, Bentri_OT_m1_LDA7_VUVV01025131_1`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+
+>Use/Save parameter estimates from 'initial-guess' model fits (`/home/beatriz/project/`) 
+
+####Reduce zero-length branches
+
+1. [**Yes**] Automatically delete internal zero-length branches for computational efficiency (will not affect results otherwise)
+2. [**Constrain**] Keep zero-length branches, but constrain their values to 0
+3. [**No**] Keep all branches
+
+>Please choose an option (or press q to cancel selection):
+### Deleted 21 zero-length internal branches: `Node14, Node15, Node18, Node2, Node20, Node21, Node22, Node26, Node27, Node32, Node35, Node36, Node46, Node49, Node50, Node53, Node55, Node6, Node60, Node72, Node73`
+* Log(L) =  -895.56, AIC-c =  1961.91 (85 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) =  -861.48, AIC-c =  1980.24 (126 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.50, and 95% of the weight in  0.00 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|OT_gene_LG12_dna_primary_assembl...|   0.02   |    2     |    0.28 ( 6.21%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node43               |   0.01   |    2     |    0.45 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node10               |   0.00   |    2     |  592.03 ( 0.72%)   |    -860.51    |    1982.46    |     1980.24     |
+|              Node11               |   0.00   |    2     |    0.59 (76.88%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node62               |   0.00   |    2     |    0.59 (76.87%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node66               |   0.00   |    2     |    1.35 ( 0.00%)   |    -862.30    |    1986.05    |     1980.24     |
+|Neocal_OT_f1_INC7_VVCG01022500_1...|   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Neopul_OT_f1_ISB3_VVEJ01017211_1...|   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node37               |   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Neomul_OT_f1_IRF8_VVDZ01043838_1...|   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node19               |   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node57               |   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node24               |   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node67               |   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|               Node3               |   0.00   |    2     |    0.27 ( 0.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Xenoch_OT_m1_JVH4_VUPR01034854_1...|   0.00   |    2     |  >1000 (100.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node25               |   0.00   |    2     |  >1000 (100.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|               Node7               |   0.00   |    2     |  >1000 (100.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|              Node23               |   0.00   |    2     |   1.00 (100.00%)   |    -861.89    |    1985.22    |     1980.24     |
+|              Node42               |   0.00   |    2     |   1.00 (100.00%)   |    -861.89    |    1985.22    |     1980.24     |
+|  Batmin_OT_m_JBG3_VVHS01033286_1  |   0.00   |    2     |   1.00 (100.00%)   |    -861.89    |    1985.23    |     1980.24     |
+|              Node70               |   0.00   |    2     |   1.00 (100.00%)   |    -861.89    |    1985.22    |     1980.24     |
+|Cypmic_OT_m1_JVE1_VUPN01042518_1...|   0.00   |    2     |    0.29 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Cypmic_OT_f1_JVF2_VUPO01059642_1...|   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|Chabri_OT_m1_AVB2_VUZK01001108_1...|   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Cypgib_OT_m1_INH7_VVCO01035391_1...|   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Cypgib_OT_f_INH9_VVCP01044423_1  |   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Chabri_OT_f1_AVA9_VUZJ01033648_1...|   0.00   |    2     |    0.29 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Cyafur_OT_f_AYE5_VVAC01004384_1  |   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Cyafur_OT_m_AVH2_VUZO01028396_1  |   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Julorn_OT_f1_ISC1_VVEL01016499_1...|   0.00   |    2     |    0.29 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Eremar_OT_f1_JXF4_VURX01027416_1...|   0.00   |    2     |    0.25 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Eremar_OT_m1_JXE9_VURW01034830_1...|   0.00   |    2     |    0.25 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Boumic_OT_m_JCF2_VVHU01025640_1  |   0.00   |    2     |    0.29 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Baicen_OT_m1_JAB7_VVHB01021407_1...|   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Baicen_OT_f_JAE9_VVHF01000726_1  |   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Batmin_OT_f_IXA5_VVFY01053389_1  |   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Boumic_OT_f_JAE7_VVHE01033540_1  |   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|Bentri_OT_m1_LDA7_VUVV01025131_1...|   0.00   |    2     |    0.25 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Bentri_OT_f1_LDA9_VXCO01032293_1...|   0.00   |    2     |    0.25 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Julorn_OT_m1_ISB7_VVEK01004696_1...|   0.00   |    2     |    0.29 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Pethor_OT_f1_IWB6_VVFQ01000232_1...|   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Perecc_OT_m1_IZB2_VVGR01010189_1...|   0.00   |    2     |    0.29 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Perecc_OT_f1_IXA4_VVFX01007713_1...|   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|Pethor_OT_m1_IWB5_VVFP01023448_1...|   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Tremac_OT_f_IUD9_VVFA01095450_1  |   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|Telvit_OT_m1_JBD5_VVHM01068905_1...|   0.00   |    2     |    0.25 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Telvit_OT_f1_JBD6_VVHN01014038_1...|   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Trodub_OT_f_KHA5_VUUL01057976_1  |   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|  Tremac_OT_m_IUD8_VVEZ01025849_1  |   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|Neocal_OT_m1_ILA7_VVBI01015065_1...|   0.00   |    2     |    0.25 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+|Neopul_OT_m1_ISA6_VVEG01019748_1...|   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|Xenoch_OT_f1_JVI5_VUPS01037005_1...|   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Trodub_OT_m1_KHA4_VUUK01004519_1...|   0.00   |    2     |    0.25 ( 2.00%)   |    -861.48    |    1984.41    |     1980.24     |
+|Tromoo_OT_f1_JBH5_VNLG01006873_1...|   0.00   |    2     |    0.25 (29.22%)   |    -861.48    |    1984.41    |     1980.24     |
+|Tromoo_OT_m1_JBH4_VVHT01035467_1...|   0.00   |    2     |    0.25 (23.78%)   |    -861.48    |    1984.41    |     1980.24     |
+
+### Rate class analyses summary
+*  56 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) =  -861.07, AIC-c =  1979.41 (126 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|OT_gene_LG12_dna_primary_assembl...|     1    |   0.18 (100.00%)   |        0.00        |       1.00000      |
+|              Node43               |     1    |   0.23 (100.00%)   |        0.00        |       1.00000      |
+|              Node10               |     1    |   0.46 (100.00%)   |        0.00        |       1.00000      |
+|              Node11               |     1    |   0.46 (100.00%)   |        0.00        |       1.00000      |
+|              Node62               |     1    |   0.46 (100.00%)   |        0.00        |       1.00000      |
+|              Node66               |     1    |  >1000 (100.00%)   |        1.51        |       0.18530      |
+|Neocal_OT_f1_INC7_VVCG01022500_1...|     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|Neopul_OT_f1_ISB3_VVEJ01017211_1...|     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|              Node37               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|Neomul_OT_f1_IRF8_VVDZ01043838_1...|     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|              Node19               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|              Node57               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|              Node24               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|              Node67               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|               Node3               |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|Xenoch_OT_m1_JVH4_VUPR01034854_1...|     1    |  >1000 (100.00%)   |        0.75        |       0.28280      |
+|              Node25               |     1    |  >1000 (100.00%)   |        0.75        |       0.28275      |
+|               Node7               |     1    |  >1000 (100.00%)   |        0.76        |       0.28236      |
+|              Node23               |     1    |  >1000 (100.00%)   |        0.75        |       0.28350      |
+|              Node42               |     1    |  >1000 (100.00%)   |        0.75        |       0.28310      |
+|  Batmin_OT_m_JBG3_VVHS01033286_1  |     1    |  >1000 (100.00%)   |        0.75        |       0.28297      |
+|              Node70               |     1    |  >1000 (100.00%)   |        0.75        |       0.28391      |
+|Cypmic_OT_m1_JVE1_VUPN01042518_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Cypmic_OT_f1_JVF2_VUPO01059642_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Chabri_OT_m1_AVB2_VUZK01001108_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Cypgib_OT_m1_INH7_VVCO01035391_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Cypgib_OT_f_INH9_VVCP01044423_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Chabri_OT_f1_AVA9_VUZJ01033648_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Cyafur_OT_f_AYE5_VVAC01004384_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Cyafur_OT_m_AVH2_VUZO01028396_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Julorn_OT_f1_ISC1_VVEL01016499_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Eremar_OT_f1_JXF4_VURX01027416_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Eremar_OT_m1_JXE9_VURW01034830_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Boumic_OT_m_JCF2_VVHU01025640_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Baicen_OT_m1_JAB7_VVHB01021407_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Baicen_OT_f_JAE9_VVHF01000726_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Batmin_OT_f_IXA5_VVFY01053389_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Boumic_OT_f_JAE7_VVHE01033540_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Bentri_OT_m1_LDA7_VUVV01025131_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Bentri_OT_f1_LDA9_VXCO01032293_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Julorn_OT_m1_ISB7_VVEK01004696_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Pethor_OT_f1_IWB6_VVFQ01000232_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Perecc_OT_m1_IZB2_VVGR01010189_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Perecc_OT_f1_IXA4_VVFX01007713_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Pethor_OT_m1_IWB5_VVFP01023448_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Tremac_OT_f_IUD9_VVFA01095450_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Telvit_OT_m1_JBD5_VVHM01068905_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Telvit_OT_f1_JBD6_VVHN01014038_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Trodub_OT_f_KHA5_VUUL01057976_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|  Tremac_OT_m_IUD8_VVEZ01025849_1  |     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Neocal_OT_m1_ILA7_VVBI01015065_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Neopul_OT_m1_ISA6_VVEG01019748_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Xenoch_OT_f1_JVI5_VUPS01037005_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Trodub_OT_m1_KHA4_VUUK01004519_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Tromoo_OT_f1_JBH5_VNLG01006873_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+|Tromoo_OT_m1_JBH4_VVHT01035467_1...|     1    |   1.00 (100.00%)   |        0.00        |       1.00000      |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **56** tested.
+

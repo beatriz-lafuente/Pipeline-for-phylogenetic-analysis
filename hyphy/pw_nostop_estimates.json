@@ -1,0 +1,587 @@
+{
+ "GTR":{
+   "EFV":{
+     "tGGtYpaL.model":      [
+[0.2033333333333333],
+      [0.2860752688172043],
+      [0.2839247311827957],
+      [0.2266666666666667] 
+      ]
+    },
+   "LogL":-895.5614540033232,
+   "Trees":    [
+["(Bentri_OT_f1_LDA9_VXCO01032293_1:0,((Perecc_OT_m1_IZB2_VVGR01010189_1:0,Perecc_OT_f1_IXA4_VVFX01007713_1:0)Node3:0.002152920997182049,((Cypmic_OT_m1_JVE1_VUPN01042518_1:0,Cypmic_OT_f1_JVF2_VUPO01059642_1:0)Node7:0.002153766592849572,((Eremar_OT_m1_JXE9_VURW01034830_1:0,Eremar_OT_f1_JXF4_VURX01027416_1:0)Node11:0.004320348685953499,((Baicen_OT_m1_JAB7_VVHB01021407_1:0,Baicen_OT_f_JAE9_VVHF01000726_1:0)Node15:0,((((((((((Julorn_OT_m1_ISB7_VVEK01004696_1:0,Chabri_OT_f1_AVA9_VUZJ01033648_1:0)Node27:0,Chabri_OT_m1_AVB2_VUZK01001108_1:0)Node26:0,Julorn_OT_f1_ISC1_VVEL01016499_1:0)Node25:0.002153583683813373,(Telvit_OT_m1_JBD5_VVHM01068905_1:0,Telvit_OT_f1_JBD6_VVHN01014038_1:0)Node32:0)Node24:0.00215424701208434,(((Neopul_OT_f1_ISB3_VVEJ01017211_1:0.00215349892126381,Neopul_OT_m1_ISA6_VVEG01019748_1:0)Node37:0.002153878015082164,Neocal_OT_f1_INC7_VVCG01022500_1:0.00215967955850977)Node36:0,Neocal_OT_m1_ILA7_VVBI01015065_1:0)Node35:0)Node23:0.002158164638447246,((Tremac_OT_m_IUD8_VVEZ01025849_1:0,Tremac_OT_f_IUD9_VVFA01095450_1:0)Node43:0.0130123479761654,(Boumic_OT_f_JAE7_VVHE01033540_1:0,Boumic_OT_m_JCF2_VVHU01025640_1:0)Node46:0)Node42:0.002155814958294408)Node22:0,((Xenoch_OT_f1_JVI5_VUPS01037005_1:0,Cyafur_OT_f_AYE5_VVAC01004384_1:0)Node50:0,(Cyafur_OT_m_AVH2_VUZO01028396_1:0,(Neomul_OT_f1_IRF8_VVDZ01043838_1:0.002156333224322644,(Cypgib_OT_m1_INH7_VVCO01035391_1:0,Cypgib_OT_f_INH9_VVCP01044423_1:0)Node57:0.0021553597937404)Node55:0)Node53:0)Node49:0)Node21:0,(Xenoch_OT_m1_JVH4_VUPR01034854_1:0.002156333235165686,(Batmin_OT_f_IXA5_VVFY01053389_1:0,Batmin_OT_m_JBG3_VVHS01033286_1:0.002154075736209939)Node62:0.004316505547196384)Node60:0)Node20:0,OT_gene_LG12_dna_primary_assembly_primary_assembly_O_niloticus_UMD_NMBU_LG12_24070196_24073278__:0.01529391639947559)Node19:0.002155229574488701,((Tromoo_OT_m1_JBH4_VVHT01035467_1:0,Tromoo_OT_f1_JBH5_VNLG01006873_1:0)Node67:0.002153652916686591,(Trodub_OT_m1_KHA4_VUUK01004519_1:0,((Trodub_OT_f_KHA5_VUUL01057976_1:0,Pethor_OT_m1_IWB5_VVFP01023448_1:0)Node73:0,Pethor_OT_f1_IWB6_VVFQ01000232_1:0)Node72:0)Node70:0.002154787908526899)Node66:0.004328040573855592)Node18:0)Node14:0)Node10:0.004327169809019934)Node6:0)Node2:0,Bentri_OT_m1_LDA7_VUVV01025131_1:0)"] 
+    ],
+   "branch length":{
+     "0":{
+       "Baicen_OT_f_JAE9_VVHF01000726_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Baicen_OT_m1_JAB7_VVHB01021407_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Batmin_OT_f_IXA5_VVFY01053389_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Batmin_OT_m_JBG3_VVHS01033286_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007048645407677307
+          },
+         "MLE":0.002154075736209939
+        },
+       "Bentri_OT_f1_LDA9_VXCO01032293_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Bentri_OT_m1_LDA7_VUVV01025131_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Boumic_OT_f_JAE7_VVHE01033540_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Boumic_OT_m_JCF2_VVHU01025640_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Chabri_OT_f1_AVA9_VUZJ01033648_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Chabri_OT_m1_AVB2_VUZK01001108_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Cyafur_OT_f_AYE5_VVAC01004384_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Cyafur_OT_m_AVH2_VUZO01028396_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Cypgib_OT_f_INH9_VVCP01044423_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Cypgib_OT_m1_INH7_VVCO01035391_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Cypmic_OT_f1_JVF2_VUPO01059642_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Cypmic_OT_m1_JVE1_VUPN01042518_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Eremar_OT_f1_JXF4_VURX01027416_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Eremar_OT_m1_JXE9_VURW01034830_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Julorn_OT_f1_ISC1_VVEL01016499_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Julorn_OT_m1_ISB7_VVEK01004696_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Neocal_OT_f1_INC7_VVCG01022500_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007066982439962269
+          },
+         "MLE":0.00215967955850977
+        },
+       "Neocal_OT_m1_ILA7_VVBI01015065_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Neomul_OT_f1_IRF8_VVDZ01043838_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007056032442845578
+          },
+         "MLE":0.002156333224322644
+        },
+       "Neopul_OT_f1_ISB3_VVEJ01017211_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007046757932714024
+          },
+         "MLE":0.00215349892126381
+        },
+       "Neopul_OT_m1_ISA6_VVEG01019748_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node10":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01415952331195824
+          },
+         "MLE":0.004327169809019934
+        },
+       "Node11":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01413720298358296
+          },
+         "MLE":0.004320348685953499
+        },
+       "Node14":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node15":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node18":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node19":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007052421039493814
+          },
+         "MLE":0.002155229574488701
+        },
+       "Node2":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node20":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node21":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node22":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node23":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007062025263126655
+          },
+         "MLE":0.002158164638447246
+        },
+       "Node24":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007049205862857802
+          },
+         "MLE":0.00215424701208434
+        },
+       "Node25":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007047035295828829
+          },
+         "MLE":0.002153583683813373
+        },
+       "Node26":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node27":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node3":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007044866828396561
+          },
+         "MLE":0.002152920997182049
+        },
+       "Node32":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node35":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node36":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node37":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007047998417371504
+          },
+         "MLE":0.002153878015082164
+        },
+       "Node42":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007054336553792807
+          },
+         "MLE":0.002155814958294408
+        },
+       "Node43":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.04257948096415411
+          },
+         "MLE":0.0130123479761654
+        },
+       "Node46":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node49":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node50":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node53":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node55":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node57":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007052847147691888
+          },
+         "MLE":0.0021553597937404
+        },
+       "Node6":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node60":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node62":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01412462732438211
+          },
+         "MLE":0.004316505547196384
+        },
+       "Node66":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.01416237266050103
+          },
+         "MLE":0.004328040573855592
+        },
+       "Node67":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.00704726184216871
+          },
+         "MLE":0.002153652916686591
+        },
+       "Node7":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007047633817466836
+          },
+         "MLE":0.002153766592849572
+        },
+       "Node70":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007050975803980015
+          },
+         "MLE":0.002154787908526899
+        },
+       "Node72":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Node73":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "OT_gene_LG12_dna_primary_assembly_primary_assembly_O_niloticus_UMD_NMBU_LG12_24070196_24073278__":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.05004531260550711
+          },
+         "MLE":0.01529391639947559
+        },
+       "Perecc_OT_f1_IXA4_VVFX01007713_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Perecc_OT_m1_IZB2_VVGR01010189_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Pethor_OT_f1_IWB6_VVFQ01000232_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Pethor_OT_m1_IWB5_VVFP01023448_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Telvit_OT_f1_JBD6_VVHN01014038_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Telvit_OT_m1_JBD5_VVHM01068905_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Tremac_OT_f_IUD9_VVFA01095450_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Tremac_OT_m_IUD8_VVEZ01025849_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Trodub_OT_f_KHA5_VUUL01057976_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Trodub_OT_m1_KHA4_VUUK01004519_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Tromoo_OT_f1_JBH5_VNLG01006873_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Tromoo_OT_m1_JBH4_VVHT01035467_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Xenoch_OT_f1_JVI5_VUPS01037005_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0
+          },
+         "MLE":0
+        },
+       "Xenoch_OT_m1_JVH4_VUPR01034854_1":{
+         "Evolutionary time parameter":{
+           "ID":"t",
+           "MLE":0.007056032478326577
+          },
+         "MLE":0.002156333235165686
+        }
+      }
+    },
+   "global":{
+     "Substitution rate from nucleotide A to nucleotide C":{
+       "ID":"tGGtYpaL.model.theta_AC",
+       "MLE":0.1412774919952576
+      },
+     "Substitution rate from nucleotide A to nucleotide G":{
+       "ID":"tGGtYpaL.model.theta_AG",
+       "MLE":1,
+       "constraint":"1"
+      },
+     "Substitution rate from nucleotide A to nucleotide T":{
+       "ID":"tGGtYpaL.model.theta_AT",
+       "MLE":0.08983214099757865
+      },
+     "Substitution rate from nucleotide C to nucleotide G":{
+       "ID":"tGGtYpaL.model.theta_CG",
+       "MLE":0.100817484691491
+      },
+     "Substitution rate from nucleotide C to nucleotide T":{
+       "ID":"tGGtYpaL.model.theta_CT",
+       "MLE":1.085944654413733
+      },
+     "Substitution rate from nucleotide G to nucleotide T":{
+       "ID":"tGGtYpaL.model.theta_GT",
+       "MLE":0.06379580495274934
+      }
+    },
+   "parameters":85
+  }
+}
