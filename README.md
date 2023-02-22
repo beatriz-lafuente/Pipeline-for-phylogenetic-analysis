@@ -8,8 +8,11 @@
 
 ## In this repository you will find:
 
-- A project xplaining all the steps of the project [(Link to the project report)](https://github.com/beatriz-lafuente/Phylogenetic-Analysis/blob/main/report/internship_report_22_positive_selection_cichlids.pdf).
-- A data folder with:
-    - 
+<ul>
+  <li> <aroject report](https://github.com/beatriz-lafuente/Phylogenetic-Analysis/blob/main/report/internship_report_22_positive_selection_cichlids.pdf) explaining all the steps of the project. </li>
+  <li> <strong>Data folder</strong> with:
+    <ul>
+      <li> Excel file containing all the species of cichlids used in the project. </li>
+    </ul>
 - The nexus folder contains a file with the sequences converted from fasta to nexus.
 
