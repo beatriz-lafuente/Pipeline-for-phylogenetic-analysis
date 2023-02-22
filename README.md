@@ -9,13 +9,13 @@
 # What's in this repository?
 
 <ul>
-  <li> <a href="https://github.com/beatriz-lafuente/Phylogenetic-Analysis/blob/main/report/internship_report_22_positive_selection_cichlids.pdf">Project report</a> : explaines all the steps of the project </li>
+  <li><a href="https://github.com/beatriz-lafuente/Phylogenetic-Analysis/blob/main/report/internship_report_22_positive_selection_cichlids.pdf"><strong>Project report</strong></a> explaining all the steps of the project. </li>
   <li> A <a href="https://github.com/beatriz-lafuente/Phylogenetic-Analysis/tree/main/data"><strong>data</strong></a> folder with:
     <ul>
-      <li> Excel file containing all the species of cichlids used in the project </li>
-      <li> Fasta file with the sequences of cichlids </li>
-      <li> A file with the parameters used in HyPhy software </li>
-      <li> Fasta file of the species without stop codons </li>
+      <li> Excel file containing all the species of cichlids used in the project; </li>
+      <li> Fasta file with the sequences of cichlids; </li>
+      <li> A file with the parameters used in HyPhy software; </li>
+      <li> Fasta file of the species without stop codons. </li>
     </ul>
   <li> A <a href="https://github.com/beatriz-lafuente/Phylogenetic-Analysis/tree/main/hyphy"><strong>hyphy</strong></a> folder containing the results of the maximum likelihood analysis. </li>
   <li> A <a href="https://github.com/beatriz-lafuente/Phylogenetic-Analysis/tree/main/nexus"><strong>nexus</strong></a> folder containing a file converted from fasta to nexus for MrBayes. </li>
